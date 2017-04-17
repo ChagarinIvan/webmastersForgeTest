@@ -1,0 +1,130 @@
+.head-block{
+    background-color: #c7ddef;
+    position: relative;
+}
+.sign-form, .create-block, .create-form, .user-block{
+    background-color: #feffeb;
+    margin-top: 20px;
+    border: 1px solid #d8dee2;
+    border-radius: 5px;
+    padding: 18px 20px 0 20px;
+}
+
+.create-form{
+    margin-bottom: 50px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+.sign-in-button{
+    width:100%;
+}
+
+.create-text{
+    margin-bottom: 20px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.conteiner {
+    width: 1110px !important;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.block-logo{
+    text-align: center;
+}
+
+.block-logo-img{
+    width: 50%;
+    height: auto;
+}
+
+.error-box, .submit-error-box{
+    color: red;
+    font-size: 12px;
+}
+
+
+/*++++++++++++++header++++++++++++++++*/
+.main-link{
+    text-decoration: none;
+    color:black;
+}
+
+.main-link:hover{
+    text-decoration: none;
+}
+
+.header-name{
+    margin: 10px 0;
+}
+.header-lang{
+    width: 115px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.header-lang-block{
+    height: 36px;
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.lang-button-ru {
+    width:100%;
+    border-radius: 4px 0 0 4px;
+}
+
+.lang-button-eng {
+    width:100%;
+    border-radius: 0 4px 4px 0;
+}
+
+.lang-button_active{
+   background: #5cb85c;
+}
+
+.lang-button_disactive {
+    background: #efb64c;
+}
+
+.header-lang-link{
+    line-height: 36px;
+}
+.header-lang-block
+/*++++++++++++++footer++++++++++++++++*/
+html,
+body,
+.wrapper {
+    height: 100%;
+}
+header{
+    min-height: 10%;
+    box-sizing: border-box;
+}
+section.content {
+    box-sizing: border-box;
+    min-height: 90%;
+}
+footer.footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    height: 30px;
+    margin-top: -30px;
+}
+
+
